@@ -6,7 +6,7 @@
 /*   By: ebichan <ebichan@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/18 23:42:39 by ebichan           #+#    #+#             */
-/*   Updated: 2025/02/18 23:54:05 by ebichan          ###   ########.fr       */
+/*   Updated: 2025/02/19 00:38:03 by ebichan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
 int main()
 {
-    ft_printf("%s\n","abcde")
-    printf("%s\n","abcde");
+    ft_printf("%c\n%s\n%p\n%d\n%i\n%u\n%x\n%X\n%%\n",'a',"abcde","abcde",-345,-345,-345,-345,-345,-345);
+    printf("%c\n%s\n%p\n%d\n%i\n%u\n%x\n%X\n%%\n",'a',"abcde","abcde",-345,-345,-345,-345,-345);
     return (0);
 }

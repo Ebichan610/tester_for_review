@@ -6,7 +6,7 @@
 /*   By: ebichan <ebichan@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/18 23:41:58 by ebichan           #+#    #+#             */
-/*   Updated: 2025/02/18 23:44:38 by ebichan          ###   ########.fr       */
+/*   Updated: 2025/02/19 00:25:14 by ebichan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ int	main(void)
 	int		fd;
 	char	*line;
 
-	fd = open("7-onechar.txt", O_RDONLY);
+	fd = open("onechar.txt", O_RDONLY);
 	if (fd < 0)
 		return (1);
 	while ((line = get_next_line(fd)))
