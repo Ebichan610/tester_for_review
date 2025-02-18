@@ -1,0 +1,7 @@
+echo "# tester_for_review" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Ebichan610/tester_for_review.git
+git push -u origin main
